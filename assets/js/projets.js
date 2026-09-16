@@ -4,7 +4,7 @@ const projects = [
     date: 2025,
     tag: ["Design Graphique"],
     outil: "Conception d'une cover pour un album fictif",
-    image: "/assets/img/carti_cover.jpg",
+    image: "/assets/img/mockup cd.png",
     lien: "assets/projects.page/carti.html",
   },
   {
@@ -12,7 +12,7 @@ const projects = [
     date: 2025,
     tag: ["UX/UI", "HTML/CSS"],
     outil: "Création d'un site web pour un foodtruck fictif",
-    image: "/assets/img/logo_streetfusion.png",
+    image: "/assets/img/mockup resto.png",
     lien: "assets/projects.page/foodtruck.html",
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     date: 2025,
     tag: ["Design Graphique"],
     outil: "Conception d'une première page de journal",
-    image: "/assets/img/page de j.jpg",
+    image: "/assets/img/journal.png",
     lien: "assets/projects.page/journal.html",
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     date: 2025,
     tag: ["Design Graphique"],
     outil: "Projet personnel pour un album fictif",
-    image: "/assets/img/cover cd.png",
+    image: "/assets/img/cover cd.webp",
     lien: "assets/projects.page/cd.html",
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     date: 2025,
     tag: ["UX/UI"],
     outil: "Création d'une maquette pour une application mobile fictive",
-    image: "/assets/img/logo_parkease.png",
+    image: "/assets/img/mockup tel.png",
     lien: "assets/projects.page/parkease.html",
   },
   {
@@ -44,9 +44,17 @@ const projects = [
     date: 2025,
     tag: ["UX/UI"],
     outil: "Création d'une maquette pour une application fictive",
-    image: "/assets/img/rap_logo2.png",
+    image: "/assets/img/mockup music.png",
     lien: "assets/projects.page/culture.html",
   },
+  {
+    name: "Super Mega Pizza 2000",
+    date: 2026,
+    tag: ["Design Graphique"],
+    outil: "Création d'une affiche pour une pizzaria fictive",
+    image: "/assets/img/mockup pizza.png",
+    lien: "assets/projects.page/superMega.html",
+  }
 ];
 
 function carteProject(listeDeProjets) {
@@ -124,7 +132,7 @@ function deplacerBulle(bouton) {
   filtresContainer.style.setProperty(
     "--bubble-bg",
     bouton.getAttribute("data-filter") === "tous"
-      ? "rgba(255, 0, 0, 0.308)"
+      ? "rgba(0, 0, 0, 1)"
       : "rgba(255, 255, 255, 0.2)",
   );
 }

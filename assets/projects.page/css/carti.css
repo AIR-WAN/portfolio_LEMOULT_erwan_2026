@@ -84,8 +84,8 @@ header {
   font-family: "Archivo";
   font-stretch: semi-expanded;
   font-weight: 600;
-  position: relative;  /* Ajouté pour le positionnement du ::after */
-  padding-bottom: 0.2rem;  /* Espace pour la ligne */
+  position: relative; /* Ajouté pour le positionnement du ::after */
+  padding-bottom: 0.2rem; /* Espace pour la ligne */
 }
 
 .btn_head::after {
@@ -108,7 +108,7 @@ header {
 }
 
 .btn_head.active::after {
-  width: 100%;  /* Le trait est visible en permanence */
+  width: 100%; /* Le trait est visible en permanence */
 }
 /*HEADER------------------------------------------------*/
 #picture img {
@@ -150,8 +150,8 @@ h1 {
   text-transform: uppercase;
   font-stretch: expanded;
   font-weight: 800;
-  color: var(--red);
-  text-shadow: 0px 0px 4px red;
+  text-shadow: 0px 0px 4px rgb(0, 0, 0);
+  color: rgb(0, 0, 0, 0.2);
   padding-bottom: 2rem;
 }
 
@@ -199,6 +199,6 @@ p {
   background-size: contain;
 }
 
-.bold{
+.bold {
   font-weight: 700;
 }

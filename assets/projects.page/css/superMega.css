@@ -110,9 +110,11 @@ header {
 .btn_head.active::after {
   width: 100%;  /* Le trait est visible en permanence */
 }
+
 /*HEADER------------------------------------------------*/
+
 #picture img {
-  max-width: 50%; /* ou la largeur souhaitée */
+  max-width: 85%; /* ou la largeur souhaitée */
   height: auto;
   display: block;
   margin: 0 auto;
@@ -153,6 +155,7 @@ h1 {
   text-shadow: 0px 0px 4px rgb(0, 0, 0);
   color: rgb(0, 0, 0, 0.2);
   padding-bottom: 2rem;
+  width: 30rem;
 }
 
 h3 {
@@ -176,6 +179,8 @@ p {
   hyphens: auto;
 }
 
+
+
 .imageText {
   margin-top: 5rem;
   display: flex;
@@ -194,39 +199,11 @@ p {
   background-size: contain;
 }
 
+.imageText div:nth-child(2) {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .bold{
   font-weight: 700;
 }
-
-#boutons {
-    display: flex;
-    gap: 1rem;
-
-}
-
-.site {
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-  margin: 2rem 0;
-  width: 14.5rem;
-  border: solid 2px var(--black);
-  padding: 0.5rem 0.75rem;
-  text-decoration: none;
-  color: var(--black);
-  font-size: 1rem;
-  transition: 0.3s;
-  background-color: transparent;
-  text-transform: uppercase;
-  font-stretch: semi-expanded;
-  font-weight: 600;
-}
-
-.site:hover {
-  background-color: var(--red);
-  border-color: var(--red);
-  color: var(--white);
-  font-weight: 700;
-}
-
-

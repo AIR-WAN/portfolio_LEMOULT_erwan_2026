@@ -150,8 +150,8 @@ h1 {
   text-transform: uppercase;
   font-stretch: expanded;
   font-weight: 800;
-  color: var(--red);
-  text-shadow: 0px 0px 4px red;
+  text-shadow: 0px 0px 4px rgb(0, 0, 0);
+  color: rgb(0, 0, 0, 0.2);
   padding-bottom: 2rem;
 }
 

@@ -33,7 +33,7 @@ body {
   font-weight: 700;
   color: rgba(255, 255, 255, 0.05);
   text-transform: uppercase;
-  background-image: url(../img/logo.me4.png);
+  background-image: url(../img/logo_fond.png);
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: center;
@@ -44,8 +44,9 @@ body {
   font-weight: 1000;
   font-stretch: ultra-expanded;
   margin-top: 10vw;
-  color: var(--red);
-  text-shadow: 0px 0px 6px red;
+  text-shadow: 0px 0px 15px rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-style: italic;
 }
 
 /*BACK----------------------------------------*/
@@ -61,14 +62,14 @@ section {
 
 h1 {
   text-align: right;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1.5rem;
-  color: var(--black);
+  font-weight: 650;
+  font-size: 4rem;
   font-stretch: semi-expanded;
+  font-style: oblique;
   margin: 0;
   padding: 1rem;
-  text-shadow: 0px 0px 3px rgb(116, 116, 116);
+  text-transform: none;
+  /*text-shadow: 0px 0px 3px rgb(116, 116, 116);*/
 }
 
 nav {
@@ -79,6 +80,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   padding-bottom: 10rem;
+  text-transform: uppercase;
 }
 
 .boutonNav {
@@ -92,14 +94,13 @@ nav {
   color: var(--black);
   margin-bottom: 2rem;
   margin-left: 2rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   width: fit-content;
   padding: 0 0.4rem 0.5rem 0.4rem;
   transition: all 0.4s ease;
   background-color: transparent;
   position: relative;
   font-weight: 600;
-  text-transform: uppercase;
   font-stretch: semi-expanded;
 }
 
@@ -115,7 +116,7 @@ nav {
 }
 
 .boutonNav a:hover {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   transform: translateX(10px);
 }
 
@@ -129,10 +130,10 @@ nav {
 
 .couverture {
   background-color: transparent;
-  background-image: url(../img/effect1.png);
-  background-size: contain;
+  background-image: url(../img/effet_flou.png);
+  background-size: 65%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
   width: 50vw;
   height: 100vh;
   display: flex;
@@ -165,8 +166,8 @@ nav {
 }
 
 .cv:hover {
-  background-color: var(--red);
-  border-color: var(--red);
+  background-color: var(--black);
+  border-color: var(--black);
   color: var(--white);
   font-weight: 700;
 }

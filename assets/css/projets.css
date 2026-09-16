@@ -34,7 +34,7 @@ body {
   font-weight: 700;
   color: rgba(255, 255, 255, 0.05);
   text-transform: uppercase;
-  background-image: url(../img/logo.me4.png);
+  background-image: url(../img/logo_fond.png);
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: center;
@@ -108,8 +108,9 @@ h1 {
   text-align: center;
   font-size: 5rem;
   padding-bottom: 4rem;
-  color: var(--red);
-  text-shadow: 0px 0px 6px red;
+  text-shadow: 0px 0px 8px rgb(0, 0, 0);
+  color: rgb(0, 0, 0, 0.2);
+  font-style: italic;
 }
 
 /*BOUTONS FILTRES---------------------------------------*/
@@ -185,6 +186,10 @@ h1 {
   color: var(--black);
 }
 
+.filtres button:first-child.active {
+  color: white;
+}
+
 /*BOUTONS FILTRES---------------------------------------*/
 
 /*CARTES------------------------------------------------*/
@@ -215,8 +220,9 @@ div.carte-projet {
 
 div.carte-projet:hover {
   cursor: pointer;
-  box-shadow: 0 4px 50px rgba(0, 0, 0, 0.176);
-  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 10px 20px rgba(3, 3, 3, 0.5);
+  background: rgba(0, 0, 0, 0.7);
+  color: var(--white);
 }
 
 img {
@@ -243,6 +249,7 @@ img {
   gap: 2rem;
   justify-content: center;
   background-color: transparent;
+  margin-bottom: 10rem;
 }
 
 /*CARTES------------------------------------------------*/
@@ -265,7 +272,7 @@ p.tag {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 10px;
-  background-color: var(--red);
+  background-color: var(--black);
   color: white;
   padding: 0.5rem;
   font-family: "Archivo";
