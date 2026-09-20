@@ -74,7 +74,6 @@ function carteProject(listeDeProjets) {
     currentProject.className = "carte-projet";
 
     const projet = listeDeProjets[i];
-    console.log(projet);
 
     const imageContainer = document.createElement("div");
     imageContainer.className = "image-container";

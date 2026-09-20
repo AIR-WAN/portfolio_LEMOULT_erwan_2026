@@ -223,8 +223,8 @@ p {
 }
 
 .site:hover {
-  background-color: var(--red);
-  border-color: var(--red);
+  background-color: var(--black);
+  border-color: var(--black);
   color: var(--white);
   font-weight: 700;
 }

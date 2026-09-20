@@ -78,8 +78,8 @@ nav {
   background-color: transparent;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding-bottom: 10rem;
+  justify-content: flex-end; /* ← au lieu de space-between */
+  padding-bottom: 7.5rem;
   text-transform: uppercase;
 }
 
