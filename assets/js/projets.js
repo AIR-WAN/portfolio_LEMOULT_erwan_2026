@@ -8,14 +8,6 @@ const projects = [
     lien: "assets/projects.page/carti.html",
   },
   {
-    name: "Street Fusion",
-    date: 2025,
-    tag: ["UX/UI", "HTML/CSS"],
-    outil: "Création d'un site web pour un foodtruck fictif",
-    image: "/assets/img/mockup resto.png",
-    lien: "assets/projects.page/foodtruck.html",
-  },
-  {
     name: "The Music Times",
     date: 2025,
     tag: ["Design Graphique"],
@@ -24,12 +16,28 @@ const projects = [
     lien: "assets/projects.page/journal.html",
   },
   {
+    name: "Affiche Supreme",
+    date: 2026,
+    tag: ["Design Graphique"],
+    outil: "Création d'une affiche pour la nouvelle collection Supreme",
+    image: "/assets/img/supreme_poster.png",
+    lien: "assets/projects.page/supreme.html",
+  },
+  {
     name: "Nostalgia",
     date: 2025,
     tag: ["Design Graphique"],
     outil: "Projet personnel pour un album fictif",
     image: "/assets/img/cover cd.webp",
     lien: "assets/projects.page/cd.html",
+  },
+  {
+    name: "Street Fusion",
+    date: 2025,
+    tag: ["UX/UI", "HTML/CSS"],
+    outil: "Création d'un site web pour un foodtruck fictif",
+    image: "/assets/img/mockup resto.png",
+    lien: "assets/projects.page/foodtruck.html",
   },
   {
     name: "Parkease",
@@ -54,7 +62,7 @@ const projects = [
     outil: "Création d'une affiche pour une pizzaria fictive",
     image: "/assets/img/mockup pizza.png",
     lien: "assets/projects.page/superMega.html",
-  }
+  },
 ];
 
 function carteProject(listeDeProjets) {
